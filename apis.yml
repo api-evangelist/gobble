@@ -1,22 +1,73 @@
 aid: gobble
 name: Gobble
-description: Gobble is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Gobble is a meal-kit delivery service that ships chef-prepped dinner kits designed
+  to be cooked in about fifteen minutes, marketed as "restaurant-level delicious in
+  minutes." The company preps and portions seasonal ingredients before shipping them
+  in refrigerated boxes to customers' doorsteps, and offers three flexible subscription
+  plans - Classic, Lean & Clean (650 calories or less, low carb, lean proteins), and
+  Vegetarian - with no long-term commitment. Backed by Andreessen Horowitz (a16z),
+  Gobble operates a direct-to-consumer subscription business and does not currently
+  publish a public developer program, API, or developer documentation. This profile
+  captures its public web presence for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/gobble/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://www.gobble.com/favicon.ico
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none-public
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Meal Kit
+- Food Delivery
+- Subscription
+- Direct to Consumer
+- Consumer
+- Ecommerce
 apis: []
+common:
+- type: DomainSecurity
+  url: security/gobble-domain-security.yml
+- type: Website
+  url: https://www.gobble.com
+- type: Blog
+  url: https://www.gobble.com/blog
+- type: Support
+  url: https://support.gobble.com
+- type: Pricing
+  url: https://www.gobble.com/plans
+- type: SignUp
+  url: https://app.gobble.com/signup/registrations/new
+- type: TermsOfService
+  url: https://www.gobble.com/terms
+- type: PrivacyPolicy
+  url: https://www.gobble.com/privacy
+- type: Careers
+  url: https://www.gobble.com/careers
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
